@@ -52,7 +52,6 @@ export PKG_CONFIG_PATH="${PWD}/lib/pkgconfig:$PKG_CONFIG_PATH"
 Make sure that the following commands print the correct include and library paths: 
 ```sh
 pkg-config --cflags vlc-plugin 
-pkg-config --libs vlc-plugin
 ```
 Now you are ready to build the plugin, cd to the plugin directory and run make:
 ```sh
