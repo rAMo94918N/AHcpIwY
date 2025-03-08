@@ -13,4 +13,3 @@ tab_width = 4
 
 [{CMakeLists.txt,*.cmake,cmake.toml}]
 indent_style = space
-end_of_line = lf
