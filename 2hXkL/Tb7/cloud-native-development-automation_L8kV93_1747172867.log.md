@@ -11,7 +11,6 @@ This guide walks you through the process of setting up Windows Subsystem for Lin
 3. Run the command: `wsl --install`.
    
 Ensure that your version of Windows 10/11 is up-to-date: WSL requires Windows 10 version 2004 or later. To check your version of Windows, go to Settings > System > About and look for the "Version" number.
-Enable the Windows Subsystem for Linux feature: To do this, open the Start menu and search for "Turn Windows features on or off". Select this option and find the "Windows Subsystem for Linux" feature in the list. Check the box next to it and click "OK". Windows will download and install the necessary files for WSL.
 
 Install a Linux distribution: Once the WSL feature is enabled, you can install a Linux distribution from the Microsoft Store or from the command line. To install a distribution from the Store, open the Store app, search for your desired distribution (e.g. Ubuntu), and click "Get". To install a distribution from the command line, open PowerShell or Command Prompt and run the following command: 
 
