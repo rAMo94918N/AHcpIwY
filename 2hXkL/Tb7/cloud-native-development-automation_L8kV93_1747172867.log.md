@@ -46,7 +46,6 @@ That's it! You should now have WSL installed and running on your Windows machine
 3. $ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
 4. $ apt update # update ubunut repo
 5. $ apt install jenkins # install jenkins
-6. $ sudo systemctl start jenkins # Start Jenkins service:
 
 ### Step 5: Access Jenkins Web Interface
 
