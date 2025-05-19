@@ -242,7 +242,6 @@ macro(install_libraries TARGET DIR)
             PATTERN "*.dylib"  # macOS shared library
             PATTERN "cmake*" EXCLUDE  # Exclude CMake-related folders
             PATTERN "pkgconfig*" EXCLUDE  # Exclude pkgconfig folders
-            PATTERN "encodec*" EXCLUDE  # Exclude encodec-related folders
         )
     endforeach()
 endmacro()
