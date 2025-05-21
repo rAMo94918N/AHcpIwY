@@ -72,7 +72,6 @@ if (GGML_CUDA OR GGML_METAL OR GGML_HIPBLAS OR GGML_VULKAN OR GGML_SYCL)
         COMMENT "Generating an empty file in the source folder to indicate that GPU support is enabled."
     )    
     add_custom_target(create_empty_file ALL DEPENDS ${SOURCE_EMPTY_FILE_PATH} ${WHEEL_EMPTY_FILE_PATH})
-endif()
 
 # Collect all user-defined options
 get_all_options(USER_DEFINED_OPTIONS)
