@@ -244,7 +244,6 @@ endmacro()
 if(CMAKE_CONFIGURATION_TYPES)  # Multi-config generators like MSBuild
     set(BUILD_SUBDIR "Release/")
 else()  # Single-config generators like Ninja and Make
-    set(BUILD_SUBDIR "")
 endif()
 
 
