@@ -214,7 +214,6 @@ if(BARK_BUILD)
         BUILD_COMMAND ${CMAKE_COMMAND} --build . --config Release -- ${MSBUILD_ARGS}
         INSTALL_COMMAND ${CMAKE_COMMAND} --build . --config Release --target install
     )
-endif()
 
 # Macro to install shared libraries for a given target.
 # There exist two install locations:
