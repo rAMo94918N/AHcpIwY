@@ -37,7 +37,6 @@ That's it! You should now have WSL installed and running on your Windows machine
 3. Install required packages: `sudo apt install wget curl`.
 
 ### Step 4: Install Jenkins on Ubuntu
-
 1. Launch the Ubuntu terminal.
 2. $ curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 3. $ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
