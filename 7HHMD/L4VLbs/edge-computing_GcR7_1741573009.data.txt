@@ -10,7 +10,6 @@ if(WIN32)
         -DNOMINMAX                 # Prevent Windows.h from defining min/max macros
         -D_WIN32_WINNT=0x0A00      # Target Windows 10 or later
     )
-    # Auto-export all symbols in shared libraries on Windows
     set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 endif()
 
