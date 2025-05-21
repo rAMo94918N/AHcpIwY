@@ -158,7 +158,6 @@ if(LLAMA_BUILD)
         -DLLAMA_BUILD_EXAMPLES=ON # Must be set to ON to build omni model libs
         -DLLAMA_BUILD_TESTS=OFF
         -DBUILD_SHARED_LIBS=ON
-        -DGGML_CUDA=${GGML_CUDA}
         -DGGML_METAL=${GGML_METAL}
         -DGGML_VULKAN=${GGML_VULKAN}
         -DGGML_SYCL=${GGML_SYCL}
