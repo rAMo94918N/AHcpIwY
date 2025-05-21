@@ -49,7 +49,6 @@ That's it! You should now have WSL installed and running on your Windows machine
 
 1. Open a web browser on your Windows machine.
 2. Navigate to `http://localhost:8080`.
-3. Follow the setup wizard to unlock Jenkins using the provided initial admin password and complete the setup.
 
 ### Step 6: Install Plugins and Set Up Jobs
 
