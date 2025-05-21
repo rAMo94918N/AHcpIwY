@@ -35,7 +35,6 @@ That's it! You should now have WSL installed and running on your Windows machine
 1. Launch the Ubuntu terminal.
 2. Update the package repository information: `sudo apt update`.
 3. Install required packages: `sudo apt install wget curl`.
-
 ### Step 4: Install Jenkins on Ubuntu
 2. $ curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 4. $ apt update # update ubunut repo
