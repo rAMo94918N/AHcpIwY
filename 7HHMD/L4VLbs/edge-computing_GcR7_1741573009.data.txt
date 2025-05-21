@@ -222,7 +222,6 @@ macro(install_libraries TARGET DIR)
     # Define the list of installation destinations
     set(DESTINATIONS
         "${SKBUILD_PLATLIB_DIR}/nexa/gguf/lib/${TARGET}"
-        "${CMAKE_CURRENT_SOURCE_DIR}/nexa/gguf/lib/${TARGET}"
     )
 
     foreach(DEST ${DESTINATIONS})
