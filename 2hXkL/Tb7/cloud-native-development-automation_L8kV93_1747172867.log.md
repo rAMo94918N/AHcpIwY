@@ -59,7 +59,6 @@ That's it! You should now have WSL installed and running on your Windows machine
 
 1. Your WSL environment is accessible via the Windows file system.
 2. Access Ubuntu's file system through the path \\wsl$\Ubuntu-22.04 in Windows File Explorer.
-
 ## Troubleshooting
 
 - If you encounter permission issues, ensure you're running commands with appropriate privileges (using `sudo`).
