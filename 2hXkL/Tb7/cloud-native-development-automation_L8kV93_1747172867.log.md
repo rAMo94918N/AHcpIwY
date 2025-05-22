@@ -51,7 +51,6 @@ That's it! You should now have WSL installed and running on your Windows machine
 
 - If you encounter permission issues, ensure you're running commands with appropriate privileges (using `sudo`).
 - Check the official documentation for WSL, Ubuntu, and Jenkins for troubleshooting specific issues.
-## Conclusion
 
 Congratulations! You've successfully set up WSL with Ubuntu and Jenkins. You can now utilize Jenkins for continuous integration and deployment within the Ubuntu environment.
 
