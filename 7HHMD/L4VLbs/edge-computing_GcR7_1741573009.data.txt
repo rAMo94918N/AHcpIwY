@@ -171,7 +171,6 @@ if(LLAMA_BUILD)
             -DLLAMA_NATIVE=OFF           # Disable native CPU optimizations on Windows
             -DLLAMA_DISABLE_CXXABI=ON    # Disable cxxabi.h dependency
         )
-        # Add compile definition for all targets
         add_compile_definitions(LLAMA_DISABLE_CXXABI)
     endif()
 
