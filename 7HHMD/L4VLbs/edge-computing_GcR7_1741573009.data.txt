@@ -133,7 +133,6 @@ if(STABLE_DIFFUSION_BUILD)
         SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/dependency/stable-diffusion.cpp
         BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR}/stable_diffusion_build
         CMAKE_ARGS ${SD_CMAKE_ARGS}  
-        BUILD_ALWAYS 1
         BUILD_COMMAND ${CMAKE_COMMAND} --build . --config Release -- ${MSBUILD_ARGS}
         INSTALL_COMMAND ${CMAKE_COMMAND} --build . --config Release --target install
     )
