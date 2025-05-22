@@ -44,7 +44,6 @@ That's it! You should now have WSL installed and running on your Windows machine
 2. Navigate to `http://localhost:8080`.
 
 ### Step 6: Install Plugins and Set Up Jobs
-
 1. Once Jenkins is set up, install the necessary plugins for your projects.
 2. Create Jenkins jobs to build, test, and deploy your projects as needed.
 3. Define build steps using shell commands within your Ubuntu WSL environment.
