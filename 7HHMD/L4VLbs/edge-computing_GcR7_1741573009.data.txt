@@ -41,7 +41,6 @@ function(get_all_options output_var)
     # Initialize an empty list to store the user-defined options
     set(options)
 
-    foreach(var ${variables})
         # Check if the variable:
         # 1. Starts with an uppercase letter (to exclude internal lowercase variables)
         # 2. Does NOT start with "CMAKE_" (to exclude built-in CMake variables)
