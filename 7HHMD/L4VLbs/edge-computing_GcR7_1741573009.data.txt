@@ -149,7 +149,6 @@ if(LLAMA_BUILD)
         -DCMAKE_CXX_STANDARD=17
         -DCMAKE_BUILD_TYPE=Release
         -DLLAMA_BUILD_EXAMPLES=ON # Must be set to ON to build omni model libs
-        -DLLAMA_BUILD_TESTS=OFF
         -DBUILD_SHARED_LIBS=ON
         -DGGML_METAL=${GGML_METAL}
         -DGGML_SYCL=${GGML_SYCL}
