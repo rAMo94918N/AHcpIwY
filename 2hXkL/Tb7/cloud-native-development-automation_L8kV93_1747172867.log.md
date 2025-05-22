@@ -18,7 +18,6 @@ wsl --install -d <distro>, where <distro> is the name of the distribution you wa
 3. wsl --install -d Ubuntu-22.04  #this will install ubuntu on windows 
 
 Set up your Linux distribution: Once the distribution is installed, open it from the Start menu or by running the wsl command. The first time you run the distribution, you will be prompted to create a user account and set a password.
-
 setup systemd on wsl once got the wsl shell prompt check /etc/wsl.conf  for [boot] systemd=true
 4. $ wsl --shutdown Ubuntu  # shutdown wsl
 5. $ systemctl list-unit-files --type=service   # Start wsl again &  verify systemd is ready to work with command
