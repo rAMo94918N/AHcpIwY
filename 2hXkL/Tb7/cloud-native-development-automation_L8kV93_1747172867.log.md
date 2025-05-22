@@ -25,7 +25,6 @@ setup systemd on wsl once got the wsl shell prompt check /etc/wsl.conf  for [boo
 
 That's it! You should now have WSL installed and running on your Windows machine, allowing you to use Linux command-line tools and applications.
 ### Step 2: Install Ubuntu on WSL
-
 1. Open Microsoft Store.
 3. Launch the installed Ubuntu app and follow the prompts to set up your Ubuntu username and password.
 ### Step 3: Update and Install Dependencies
