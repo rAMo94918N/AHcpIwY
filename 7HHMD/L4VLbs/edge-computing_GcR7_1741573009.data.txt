@@ -16,7 +16,6 @@ endif()
 # To prevent this, limit the maximum number of parallel jobs to 2.
 if(WIN32 AND GGML_CUDA)
     set(BUILD_PARALLEL_LEVEL "2" CACHE STRING "Number of parallel jobs for MSBuild in CUDA compilation")
-    set(MSBUILD_ARGS "/m:${BUILD_PARALLEL_LEVEL}")
 else()
     set(MSBUILD_ARGS "")
 endif()
