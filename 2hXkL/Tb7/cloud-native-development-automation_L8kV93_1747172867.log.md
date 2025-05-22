@@ -5,7 +5,6 @@ This guide walks you through the process of setting up Windows Subsystem for Lin
 ## Prerequisites - wsl only
 
 - To install WSL on Windows, you can follow these steps:
-### Step 1: Install WSL
 1. open MS store and search for wsl and install.
 2. Open PowerShell as Administrator.
 3. Run the command: `wsl --install`.
