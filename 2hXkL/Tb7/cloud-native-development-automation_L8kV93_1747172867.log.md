@@ -27,7 +27,6 @@ That's it! You should now have WSL installed and running on your Windows machine
 ### Step 2: Install Ubuntu on WSL
 
 1. Open Microsoft Store.
-2. Search for "Ubuntu" and install the Ubuntu distribution.
 3. Launch the installed Ubuntu app and follow the prompts to set up your Ubuntu username and password.
 ### Step 3: Update and Install Dependencies
 
